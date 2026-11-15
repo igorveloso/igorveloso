@@ -12,9 +12,7 @@
 
 ## / Impact at a glance
 
-| **6.6×** | **74%** | **4** |
-|:---|:---|:---|
-| Return on enrichment spend, measured against closed revenue from my GTM plays at **Wellhub** | Share of validated SMB opportunities originating from my plays since July 2026 at **Wellhub** | AI and automation products in the portfolio I managed at **V.tal** |
+![Selected impact metrics](./assets/impact-cards.svg)
 
 *Selected outcomes from previous work; figures are not live dashboard data. Metrics refer to different initiatives and time periods.*
 
@@ -22,21 +20,7 @@
 
 **From signals to explainable decisions.**
 
-```text
-  SIGNALS          VALIDATE           QUALIFY             DECIDE
-  ──────────       ──────────         ──────────          ──────────
-  Lead input  ───▶  Normalize   ───▶   Rule-based   ───▶   Qualified
-  (synthetic)       Deduplicate        scoring              / Review
-                    CRM exclusions     + reasons            / Excluded
-```
-
-```text
-  $ python3 qualify.py
-
-  [DEMO] alex@example.com   → qualified   score: 100
-  [DEMO] ALEX@example.com   → excluded    duplicate in batch
-  [DEMO] pat@blocked.test   → excluded    blocked company domain
-```
+![Synthetic GTM qualification workflow and sample results](./assets/agent-lab.svg)
 
 **Prototype, not a live agent.** The current implementation uses fictional data, deterministic Python rules, and no production CRM connections. An ADK integration is planned, not yet implemented.
 
@@ -44,12 +28,9 @@
 
 ## / Selected builds
 
-| Project | What it demonstrates | Status |
-|:---|:---|:---|
-| [**GTM Lead Qualification Prototype**](https://github.com/igorveloso/adk-agentsamples/pull/1) | Deduplication, exclusion logic, transparent scoring and unit tests on synthetic leads | **Prototype · Draft PR** |
-| [**PianoHero**](https://github.com/igorveloso/PianoHero) | Product vision, learning design and architecture for a piano-learning experience | **Concept / documentation** |
-| [**IbaArquitetura**](https://github.com/igorveloso/IbaArquitetura) | Workflow discovery and integration planning for an architecture practice | **Exploration / validation** |
-| [**VibeCoding**](https://github.com/igorveloso/vibecoding) | Notes and resources for AI-assisted software development | **Learning resource** |
+![Selected project overview](./assets/project-cards.svg)
+
+**Explore:** [GTM Lead Qualification](https://github.com/igorveloso/adk-agentsamples/pull/1) · [PianoHero](https://github.com/igorveloso/PianoHero) · [IbaArquitetura](https://github.com/igorveloso/IbaArquitetura) · [VibeCoding](https://github.com/igorveloso/vibecoding)
 
 Some other public repositories are forks, upstream examples or learning copies. I credit original maintainers and distinguish their work from my own adaptations.
 
