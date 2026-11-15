@@ -21,15 +21,15 @@ Previously, at **V.tal**, I managed a portfolio of **four AI and automation prod
 
 At **allu**, I led product and growth improvements for a digital investment platform, including a **500% increase in daily active users**, **32% improvement in sales conversion**, and analytics using SQL and BigQuery.
 
-## Selected interests & repositories
+## Selected projects and learning
 
-I explore agent workflows, practical AI applications, and tooling for product teams. A few public repositories to explore:
+My public repositories include product concepts, technical experiments, and reference material. I distinguish my own planning and implementation work from upstream examples and third-party code.
 
-- [Agent Development Kit samples](https://github.com/igorveloso/adk-agentsamples) — agent patterns and examples; upstream/sample material, **not presented as original work**.
-- [Product Manager Skills](https://github.com/igorveloso/product-manager-skills) — a public collection of frameworks and skills for AI-assisted product workflows; check the repository for attribution and licensing.
-- [Agent Scripts](https://github.com/igorveloso/agent-scripts) — agent instructions, reusable skills, and workflow helpers; repository content may include shared or third-party material.
+- [IbaArquitetura](https://github.com/igorveloso/IbaArquitetura) — product and integration planning for architecture-office workflows; **documentation and an initial validation script, not a finished application**.
+- [PianoHero](https://github.com/igorveloso/PianoHero) — product strategy and learning-experience documentation for a piano-learning app; **concept/documentation, not a shipped product**.
+- [VibeCoding](https://github.com/igorveloso/vibecoding) — notes and resources on AI-assisted development; individual content and provenance should be reviewed before treating it as original work.
 
-These links are examples of topics I explore; repository visibility or ownership does not by itself establish authorship of all code.
+Other public repositories contain experiments, forks, or upstream learning material. Their presence on this account should not be taken as a claim that I authored the underlying projects.
 
 ## What I care about
 
