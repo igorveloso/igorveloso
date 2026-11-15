@@ -36,7 +36,7 @@ Some other public repositories are forks, upstream examples or learning copies. 
 
 ## / How I work
 
-**Identify the leverage point** → **Connect the data** → **Build the workflow** → **Enable adoption** → **Measure outcomes**
+![Five-step workflow: identify, connect, build, enable, measure](./assets/workflow.svg)
 
 At **Wellhub**, I work on UK outbound GTM systems using Clay, Salesforce and Salesloft, with enrichment, validation, routing and measurable commercial outcomes.
 
@@ -44,24 +44,17 @@ Previously at **V.tal**, I coordinated AI and automation initiatives across prod
 
 ## / Beyond the code
 
-### Tomorrow Untested /
+[![Tomorrow Untested — Exploring the future of AI](./assets/tomorrow-untested.svg)](https://www.youtube.com/@tomorrowuntested)
 
-**Exploring the future of AI, one experiment at a time.**
+A personal creator project exploring AI breakthroughs, emerging technologies and practical experiments.
 
-A personal YouTube project about AI breakthroughs, emerging technologies and what happens when ambitious ideas meet reality.
-
-**[Visit Tomorrow Untested on YouTube ↗](https://www.youtube.com/@tomorrowuntested)**
+**[Explore Tomorrow Untested on YouTube ↗](https://www.youtube.com/@tomorrowuntested)**
 
 *An independent creator project; not affiliated with my employers.*
 
 ## / Current focus
 
-```text
-  [01] AI agents for practical GTM workflows
-  [02] Repeatable systems for revenue operations
-  [03] Responsible AI deployment and measurable impact
-  [04] Building, learning and sharing what comes next
-```
+![Current focus: AI agents, revenue operations, responsible AI, building and sharing](./assets/current-focus.svg)
 
 ---
 
