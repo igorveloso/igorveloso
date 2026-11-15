@@ -1,40 +1,93 @@
-# Igor Veloso
+<div align="center">
 
-**GTM Engineer | Applied AI & Revenue Systems | Product & Operations**
+![Igor Veloso — GTM Command Center](./assets/command-center-header.svg)
 
-Based in Belo Horizonte, Brazil · [LinkedIn](https://www.linkedin.com/in/igor-veloso)
+**GTM Engineer · Applied AI · Product & Operations**
 
-I build systems that help commercial and operational teams turn data and AI into measurable outcomes. My work spans GTM engineering, AI-enabled workflows, product delivery, and cross-functional programs.
+[LinkedIn](https://www.linkedin.com/in/igor-veloso) · [Projects](https://github.com/igorveloso?tab=repositories) · [Tomorrow Untested ↗](https://www.youtube.com/@tomorrowuntested)
 
-## GTM Engineering
+</div>
 
-At **Wellhub**, I work on outbound systems for the UK sales team, connecting **Clay, Salesforce, and Salesloft** to improve enrichment, lead validation, routing, and activation.
+---
 
-- **6.6× return on enrichment spend**, measured against closed revenue across my plays.
-- **74% of SMB validated opportunities since July 2026** originated from my plays.
-- Approximately **3,000 leads delivered in October 2026**, with CRM checks before handoff.
-- Built rep-facing enrichment workflows and reporting practices that make performance and costs traceable.
+## / Impact at a glance
 
-## Applied AI & Product Delivery
+| **6.6×** | **74%** | **4** |
+|:---|:---|:---|
+| Return on enrichment spend, measured against closed revenue from my GTM plays at **Wellhub** | Share of validated SMB opportunities originating from my plays since July 2026 at **Wellhub** | AI and automation products in the portfolio I managed at **V.tal** |
 
-Previously, at **V.tal**, I managed a portfolio of **four AI and automation products (~R$7.5M budget)**, coordinating discovery, business cases, implementation, and deployment. Work included conversational AI agents, APIs, MCP-based integrations, and ML-driven operational initiatives. Some projects reached production in under 90 days.
+*Selected outcomes from previous work; figures are not live dashboard data. Metrics refer to different initiatives and time periods.*
 
-At **allu**, I led product and growth improvements for a digital investment platform, including a **500% increase in daily active users**, **32% improvement in sales conversion**, and analytics using SQL and BigQuery.
+## / AI Agent Command Center
 
-## Selected projects and learning
+**From signals to explainable decisions.**
 
-My public repositories include product concepts, technical experiments, and reference material. I distinguish my own planning and implementation work from upstream examples and third-party code.
+```text
+  SIGNALS          VALIDATE           QUALIFY             DECIDE
+  ──────────       ──────────         ──────────          ──────────
+  Lead input  ───▶  Normalize   ───▶   Rule-based   ───▶   Qualified
+  (synthetic)       Deduplicate        scoring              / Review
+                    CRM exclusions     + reasons            / Excluded
+```
 
-- [IbaArquitetura](https://github.com/igorveloso/IbaArquitetura) — product and integration planning for architecture-office workflows; **documentation and an initial validation script, not a finished application**.
-- [PianoHero](https://github.com/igorveloso/PianoHero) — product strategy and learning-experience documentation for a piano-learning app; **concept/documentation, not a shipped product**.
-- [VibeCoding](https://github.com/igorveloso/vibecoding) — notes and resources on AI-assisted development; individual content and provenance should be reviewed before treating it as original work.
+```text
+  $ python3 qualify.py
 
-Other public repositories contain experiments, forks, or upstream learning material. Their presence on this account should not be taken as a claim that I authored the underlying projects.
+  [DEMO] alex@example.com   → qualified   score: 100
+  [DEMO] ALEX@example.com   → excluded    duplicate in batch
+  [DEMO] pat@blocked.test   → excluded    blocked company domain
+```
 
-## What I care about
+**Prototype, not a live agent.** The current implementation uses fictional data, deterministic Python rules, and no production CRM connections. An ADK integration is planned, not yet implemented.
 
-**Practical AI, measurable business impact, and the systems that help teams adopt powerful technology responsibly.**
+[Explore the GTM qualification prototype](https://github.com/igorveloso/adk-agentsamples/pull/1) · [See the upstream ADK samples](https://github.com/google/adk-samples)
 
-I'm interested in GTM engineering, AI deployment, and strategic programs at the intersection of product, technology, and operations.
+## / Selected builds
 
-[Connect on LinkedIn](https://www.linkedin.com/in/igor-veloso)
+| Project | What it demonstrates | Status |
+|:---|:---|:---|
+| [**GTM Lead Qualification Prototype**](https://github.com/igorveloso/adk-agentsamples/pull/1) | Deduplication, exclusion logic, transparent scoring and unit tests on synthetic leads | **Prototype · Draft PR** |
+| [**PianoHero**](https://github.com/igorveloso/PianoHero) | Product vision, learning design and architecture for a piano-learning experience | **Concept / documentation** |
+| [**IbaArquitetura**](https://github.com/igorveloso/IbaArquitetura) | Workflow discovery and integration planning for an architecture practice | **Exploration / validation** |
+| [**VibeCoding**](https://github.com/igorveloso/vibecoding) | Notes and resources for AI-assisted software development | **Learning resource** |
+
+Some other public repositories are forks, upstream examples or learning copies. I credit original maintainers and distinguish their work from my own adaptations.
+
+## / How I work
+
+**Identify the leverage point** → **Connect the data** → **Build the workflow** → **Enable adoption** → **Measure outcomes**
+
+At **Wellhub**, I work on UK outbound GTM systems using Clay, Salesforce and Salesloft, with enrichment, validation, routing and measurable commercial outcomes.
+
+Previously at **V.tal**, I coordinated AI and automation initiatives across product discovery, technical delivery and operational adoption. At **allu**, I worked on product growth and analytics; daily active users grew from approximately 120 to 600 (**5× the original level**).
+
+## / Beyond the code
+
+### Tomorrow Untested /
+
+**Exploring the future of AI, one experiment at a time.**
+
+A personal YouTube project about AI breakthroughs, emerging technologies and what happens when ambitious ideas meet reality.
+
+**[Visit Tomorrow Untested on YouTube ↗](https://www.youtube.com/@tomorrowuntested)**
+
+*An independent creator project; not affiliated with my employers.*
+
+## / Current focus
+
+```text
+  [01] AI agents for practical GTM workflows
+  [02] Repeatable systems for revenue operations
+  [03] Responsible AI deployment and measurable impact
+  [04] Building, learning and sharing what comes next
+```
+
+---
+
+<div align="center">
+
+**Build useful things. Measure what matters. Keep exploring.**
+
+[LinkedIn](https://www.linkedin.com/in/igor-veloso) · [GitHub](https://github.com/igorveloso) · [Tomorrow Untested](https://www.youtube.com/@tomorrowuntested)
+
+</div>
